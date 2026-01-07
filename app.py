@@ -395,9 +395,6 @@ def main():
     logo_path = Path(__file__).parent / "LOGO_anime_App.gif"
     if banner_path.exists():
         st.image(str(banner_path), use_container_width=True)
-    # Small animated logo under the banner
-    if logo_path.exists():
-        st.image(str(logo_path), width=140)
     init_state()
 
     st.title(APP_TITLE)
@@ -430,6 +427,13 @@ def main():
             render_section("rentab", "Rentabilité", exercises)
         with sub4:
             render_section("valeur", "Valeur actionnariale / boursière", exercises)
+
+    st.markdown ("---")
+
+    col1, col2, col3 = st.columns ([1, 1]
+    with col2:
+    if logo_path.exists():
+        st.image(str(logo_path), width=90)
 
     st.caption("© Sandrine Lefebvre-Reghay - Usage pédagogique — Askip’en STMG Calculs")
 
