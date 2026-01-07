@@ -11,6 +11,11 @@ import random
 from pathlib import Path
 
 import streamlit as st
+st.set_page_config(
+    page_title="Askip'en STMG - Calculs",
+    layout="centered",
+    initial_sidebar_state="collapsed"
+)
 
 APP_TITLE = "Askip'en STMG Calculs"
 DATA_PATH = Path(__file__).parent / "exercises.json"
