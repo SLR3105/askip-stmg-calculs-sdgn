@@ -1,0 +1,1250 @@
+[
+  {
+    "id": "ex1_q1",
+    "theme": "Sciences de gestion",
+    "topic": "Compte de résultat",
+    "title": "Délices d'Ici — Chiffre d'affaires",
+    "context": "Les Délices d'Ici fabrique des tartinades bio. Données: 100 000 pots vendus 6€ ; MP: 2€ par pot ; pots 0,20€ unité (AAE) ; loyer 1 000€/mois ; électricité 3 000€/an ; eau 1 000€/an ; honoraires 2 000€ ; divers 4 000€ ; impôts & taxes 3 000€ ; charges personnel 35 000€ ; rappel impôts 2 500€ ; dividendes 1 200€ ; subvention 900€.",
+    "question": "Calcule le chiffre d'affaires (CA) sur les ventes de tartinades.",
+    "qtype": "number",
+    "answer": 600000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "CA = 100 000 × 6 = 600 000 €.",
+    "error_tags": [
+      "CR",
+      "charges_vs_produits",
+      "classement_postes"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : vérifie si tu es dans les charges (emplois) ou dans les produits (ventes/ressources)."
+  },
+  {
+    "id": "ex1_q2",
+    "theme": "Sciences de gestion",
+    "topic": "Compte de résultat",
+    "title": "Délices d'Ici — Achats de matières premières",
+    "context": "Les Délices d'Ici fabrique des tartinades bio. Données: 100 000 pots vendus 6€ ; MP: 2€ par pot ; pots 0,20€ unité (AAE) ; loyer 1 000€/mois ; électricité 3 000€/an ; eau 1 000€/an ; honoraires 2 000€ ; divers 4 000€ ; impôts & taxes 3 000€ ; charges personnel 35 000€ ; rappel impôts 2 500€ ; dividendes 1 200€ ; subvention 900€.",
+    "question": "Calcule le montant des achats de matières premières.",
+    "qtype": "number",
+    "answer": 200000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Achats MP = 100 000 × 2 = 200 000 €.",
+    "error_tags": [
+      "CR",
+      "charges_vs_produits",
+      "classement_postes"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : vérifie si tu es dans les charges (emplois) ou dans les produits (ventes/ressources)."
+  },
+  {
+    "id": "ex1_q3",
+    "theme": "Sciences de gestion",
+    "topic": "Compte de résultat",
+    "title": "Délices d'Ici — Autres achats et charges externes (AAE)",
+    "context": "Les Délices d'Ici fabrique des tartinades bio. Données: 100 000 pots vendus 6€ ; MP: 2€ par pot ; pots 0,20€ unité (AAE) ; loyer 1 000€/mois ; électricité 3 000€/an ; eau 1 000€/an ; honoraires 2 000€ ; divers 4 000€ ; impôts & taxes 3 000€ ; charges personnel 35 000€ ; rappel impôts 2 500€ ; dividendes 1 200€ ; subvention 900€.",
+    "question": "Calcule le total des 'autres achats et charges externes'.",
+    "qtype": "number",
+    "answer": 42000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "AAE = pots (100 000×0,20=20 000) + loyer (1 000×12=12 000) + électricité 3 000 + eau 1 000 + honoraires 2 000 + divers 4 000 = 42 000 €.",
+    "error_tags": [
+      "CR",
+      "charges_vs_produits",
+      "classement_postes"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : vérifie si tu es dans les charges (emplois) ou dans les produits (ventes/ressources)."
+  },
+  {
+    "id": "ex1_q4",
+    "theme": "Sciences de gestion",
+    "topic": "Compte de résultat",
+    "title": "Délices d'Ici — Valeur ajoutée",
+    "context": "Les Délices d'Ici fabrique des tartinades bio. Données: 100 000 pots vendus 6€ ; MP: 2€ par pot ; pots 0,20€ unité (AAE) ; loyer 1 000€/mois ; électricité 3 000€/an ; eau 1 000€/an ; honoraires 2 000€ ; divers 4 000€ ; impôts & taxes 3 000€ ; charges personnel 35 000€ ; rappel impôts 2 500€ ; dividendes 1 200€ ; subvention 900€.",
+    "question": "Calcule la valeur ajoutée (VA).",
+    "qtype": "number",
+    "answer": 358000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "CI = achats MP (200 000) + AAE (42 000) = 242 000. VA = CA (600 000) − CI (242 000) = 358 000 €.",
+    "error_tags": [
+      "CR",
+      "charges_vs_produits",
+      "classement_postes"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : vérifie si tu es dans les charges (emplois) ou dans les produits (ventes/ressources)."
+  },
+  {
+    "id": "ex1_q5",
+    "theme": "Sciences de gestion",
+    "topic": "Compte de résultat",
+    "title": "Délices d'Ici — EBE",
+    "context": "Les Délices d'Ici fabrique des tartinades bio. Données: 100 000 pots vendus 6€ ; MP: 2€ par pot ; pots 0,20€ unité (AAE) ; loyer 1 000€/mois ; électricité 3 000€/an ; eau 1 000€/an ; honoraires 2 000€ ; divers 4 000€ ; impôts & taxes 3 000€ ; charges personnel 35 000€ ; rappel impôts 2 500€ ; dividendes 1 200€ ; subvention 900€.",
+    "question": "Calcule l'EBE.",
+    "qtype": "number",
+    "answer": 320000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "EBE = VA − Impôts & taxes − Charges de personnel = 358 000 − 3 000 − 35 000 = 320 000 €.",
+    "error_tags": [
+      "CR",
+      "charges_vs_produits",
+      "classement_postes"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : vérifie si tu es dans les charges (emplois) ou dans les produits (ventes/ressources)."
+  },
+  {
+    "id": "ex1_q6",
+    "theme": "Sciences de gestion",
+    "topic": "Compte de résultat",
+    "title": "Délices d'Ici — Résultat de l'exercice",
+    "context": "Les Délices d'Ici fabrique des tartinades bio. Données: 100 000 pots vendus 6€ ; MP: 2€ par pot ; pots 0,20€ unité (AAE) ; loyer 1 000€/mois ; électricité 3 000€/an ; eau 1 000€/an ; honoraires 2 000€ ; divers 4 000€ ; impôts & taxes 3 000€ ; charges personnel 35 000€ ; rappel impôts 2 500€ ; dividendes 1 200€ ; subvention 900€.",
+    "question": "Calcule le résultat de l'exercice (bénéfice) en tenant compte des produits financiers et exceptionnels et des charges exceptionnelles.",
+    "qtype": "number",
+    "answer": 319600,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Total produits = CA 600 000 + dividendes 1 200 + subvention 900 = 602 100. Total charges = charges d'exploitation 280 000 + charges exceptionnelles 2 500 = 282 500. Résultat = 602 100 − 282 500 = 319 600 €.",
+    "error_tags": [
+      "CR",
+      "charges_vs_produits",
+      "classement_postes"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : vérifie si tu es dans les charges (emplois) ou dans les produits (ventes/ressources)."
+  },
+  {
+    "id": "ex2_q1",
+    "theme": "Sciences de gestion",
+    "topic": "Bilan",
+    "title": "Délices d'Ici — Valeur nette des frais de constitution",
+    "context": "Les Délices d'Ici (SAS) : capital 50 000€, bénéfice 319 600€ conservé. Stock MP 75 000€ ; dettes fournisseurs 32 000€ ; dettes sociales 25 500€ ; emprunt bancaire restant dû 73 000€. Immos: frais constitution 2 000€ amorti 4 ans ; machine étiquetage 5 000€ amorti 5 ans ; machine cuisson 15 000€ amorti 10 ans ; immos financières 10 000€.",
+    "question": "Calcule la valeur nette des frais de constitution à la fin de l'année 1.",
+    "qtype": "number",
+    "answer": 1500,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Annuité = 2 000/4 = 500 ; amortissement cumulé fin N = 500 ; valeur nette = 2 000 − 500 = 1 500 €.",
+    "error_tags": [
+      "Bilan",
+      "actif_passif",
+      "brut_net_amort"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : au bilan, l’actif = ce que l’entreprise possède ; le passif = ses ressources et ce qu’elle doit."
+  },
+  {
+    "id": "ex2_q2",
+    "theme": "Sciences de gestion",
+    "topic": "Bilan",
+    "title": "Délices d'Ici — Valeur nette des immobilisations corporelles",
+    "context": "Les Délices d'Ici (SAS) : capital 50 000€, bénéfice 319 600€ conservé. Stock MP 75 000€ ; dettes fournisseurs 32 000€ ; dettes sociales 25 500€ ; emprunt bancaire restant dû 73 000€. Immos: frais constitution 2 000€ amorti 4 ans ; machine étiquetage 5 000€ amorti 5 ans ; machine cuisson 15 000€ amorti 10 ans ; immos financières 10 000€.",
+    "question": "Calcule la valeur nette totale des immobilisations corporelles (les 2 machines) à la fin de l'année 1.",
+    "qtype": "number",
+    "answer": 17500,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Machine étiquetage : annuité 5 000/5=1 000 ; VNC fin N = 5 000−1 000=4 000. Machine cuisson : annuité 15 000/10=1 500 ; VNC fin N = 15 000−1 500=13 500. Total VNC = 4 000 + 13 500 = 17 500 €.",
+    "error_tags": [
+      "Bilan",
+      "actif_passif",
+      "brut_net_amort"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : au bilan, l’actif = ce que l’entreprise possède ; le passif = ses ressources et ce qu’elle doit."
+  },
+  {
+    "id": "ex2_q3",
+    "theme": "Sciences de gestion",
+    "topic": "Bilan",
+    "title": "Délices d'Ici — Capitaux propres",
+    "context": "Les Délices d'Ici (SAS) : capital 50 000€, bénéfice 319 600€ conservé. Stock MP 75 000€ ; dettes fournisseurs 32 000€ ; dettes sociales 25 500€ ; emprunt bancaire restant dû 73 000€. Immos: frais constitution 2 000€ amorti 4 ans ; machine étiquetage 5 000€ amorti 5 ans ; machine cuisson 15 000€ amorti 10 ans ; immos financières 10 000€.",
+    "question": "Calcule le montant des capitaux propres (capital + résultat conservé).",
+    "qtype": "number",
+    "answer": 369600,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Capitaux propres = Capital 50 000 + Résultat (bénéfice) 319 600 = 369 600 €.",
+    "error_tags": [
+      "Bilan",
+      "actif_passif",
+      "brut_net_amort"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : au bilan, l’actif = ce que l’entreprise possède ; le passif = ses ressources et ce qu’elle doit."
+  },
+  {
+    "id": "ex2_q4",
+    "theme": "Sciences de gestion",
+    "topic": "Bilan",
+    "title": "Délices d'Ici — Trésorerie (banque) à l'actif",
+    "context": "Les Délices d'Ici (SAS) : capital 50 000€, bénéfice 319 600€ conservé. Stock MP 75 000€ ; dettes fournisseurs 32 000€ ; dettes sociales 25 500€ ; emprunt bancaire restant dû 73 000€. Immos: frais constitution 2 000€ amorti 4 ans ; machine étiquetage 5 000€ amorti 5 ans ; machine cuisson 15 000€ amorti 10 ans ; immos financières 10 000€.",
+    "question": "En supposant aucune créance client, calcule la trésorerie (banque) pour équilibrer le bilan.",
+    "qtype": "number",
+    "answer": 396100,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Actif net = immos incorp net 1 500 + immos corp net 17 500 + immos fin 10 000 + stock 75 000 + trésorerie. Passif = capitaux propres 369 600 + emprunt 73 000 + fournisseurs 32 000 + dettes sociales 25 500 = 500 100. Somme actif hors trésorerie = 1 500+17 500+10 000+75 000 = 104 000. Trésorerie = 500 100 − 104 000 = 396 100 €.",
+    "error_tags": [
+      "Bilan",
+      "actif_passif",
+      "brut_net_amort"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : au bilan, l’actif = ce que l’entreprise possède ; le passif = ses ressources et ce qu’elle doit."
+  },
+  {
+    "id": "mm_q1",
+    "theme": "Sciences de gestion",
+    "topic": "Coûts et marges",
+    "title": "Mister Magnet — Coût de revient unitaire",
+    "context": "Mister Magnet lance une photo sur toile. Machine 2 500€ amortie sur 1 250 impressions ; toile 80€ pour 20 impressions ; encre 400€ pour 80 impressions ; frais divers 10€ par toile ; main d'œuvre 2€ par toile. Prix de vente moyen 50€.",
+    "question": "Calcule le coût de revient unitaire d'une toile.",
+    "qtype": "number",
+    "answer": 23,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "Machine : 2 500/1 250 = 2 € ; Toile : 80/20 = 4 € ; Encre : 400/80 = 5 € ; Frais divers : 10 € ; Main d'œuvre : 2 €. Total = 2+4+5+10+2 = 23 €.",
+    "error_tags": [
+      "couts",
+      "direct_indirect",
+      "unitaire_global"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : attention au unitaire/global : × quantité ou ÷ quantité selon le cas."
+  },
+  {
+    "id": "mm_q2",
+    "theme": "Sciences de gestion",
+    "topic": "Coûts et marges",
+    "title": "Mister Magnet — Marge unitaire",
+    "context": "Mister Magnet lance une photo sur toile. Machine 2 500€ amortie sur 1 250 impressions ; toile 80€ pour 20 impressions ; encre 400€ pour 80 impressions ; frais divers 10€ par toile ; main d'œuvre 2€ par toile. Prix de vente moyen 50€.",
+    "question": "Calcule la marge unitaire (prix de vente − coût de revient).",
+    "qtype": "number",
+    "answer": 27,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "Marge unitaire = 50 − 23 = 27 €.",
+    "error_tags": [
+      "couts",
+      "direct_indirect",
+      "marge",
+      "unitaire_global"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : marge = prix de vente − coût (d’achat ou de revient selon la question)."
+  },
+  {
+    "id": "mm_q3",
+    "theme": "Sciences de gestion",
+    "topic": "Coûts et marges",
+    "title": "Mister Magnet — Marge en % du prix de vente",
+    "context": "Mister Magnet lance une photo sur toile. Machine 2 500€ amortie sur 1 250 impressions ; toile 80€ pour 20 impressions ; encre 400€ pour 80 impressions ; frais divers 10€ par toile ; main d'œuvre 2€ par toile. Prix de vente moyen 50€.",
+    "question": "Calcule la marge en % du prix de vente.",
+    "qtype": "number",
+    "answer": 54,
+    "tolerance": 0.1,
+    "unit": "%",
+    "explanation": "Marge % = (27 / 50) × 100 = 54 %.",
+    "error_tags": [
+      "marge",
+      "unitaire_global"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : marge = prix de vente − coût (d’achat ou de revient selon la question)."
+  },
+  {
+    "id": "nat_q1",
+    "theme": "Sciences de gestion",
+    "topic": "Coûts et marges",
+    "title": "Naturalia — Coût d'achat du panier",
+    "context": "Naturalia propose un panier 'complet'. Coût d'achat par familles : Légumes/œufs = 11,50 + 2,40 ; Produits secs = (35/15) + (65/10×0,25) + (80/10×0,25) ; Produits laitiers = (2×0,8) + 3,80 + 3. Charges de production par panier : transport/stockage 0,80 ; matériel 1 ; main d'œuvre (20×5)/60. Charges de distribution : main d'œuvre (20×6)/60 ; charges générales 1.",
+    "question": "Calcule le coût d'achat total du panier 'complet'.",
+    "qtype": "number",
+    "answer": 28.26,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "Légumes/œufs : 11,50 + 2,40 = 13,90. Produits secs : 35/15=2,33 ; 65/10×0,25=1,63 ; 80/10×0,25=2 → total 5,96. Produits laitiers : 2×0,8=1,6 ; +3,80 +3 = 8,40. Total coût d'achat = 13,90+5,96+8,40 = 28,26 €.",
+    "error_tags": [
+      "couts",
+      "direct_indirect",
+      "unitaire_global"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : attention au unitaire/global : × quantité ou ÷ quantité selon le cas."
+  },
+  {
+    "id": "nat_q2",
+    "theme": "Sciences de gestion",
+    "topic": "Coûts et marges",
+    "title": "Naturalia — Coût de production par panier",
+    "context": "Naturalia propose un panier 'complet'. Coût d'achat par familles : Légumes/œufs = 11,50 + 2,40 ; Produits secs = (35/15) + (65/10×0,25) + (80/10×0,25) ; Produits laitiers = (2×0,8) + 3,80 + 3. Charges de production par panier : transport/stockage 0,80 ; matériel 1 ; main d'œuvre (20×5)/60. Charges de distribution : main d'œuvre (20×6)/60 ; charges générales 1.",
+    "question": "Calcule le coût de production par panier.",
+    "qtype": "number",
+    "answer": 3.47,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "Transport/stockage 0,80 + matériel 1,00 + main d'œuvre (20×5)/60 = 1,67. Total = 0,80+1+1,67 = 3,47 €.",
+    "error_tags": [
+      "couts",
+      "direct_indirect",
+      "unitaire_global"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : attention au unitaire/global : × quantité ou ÷ quantité selon le cas."
+  },
+  {
+    "id": "nat_q3",
+    "theme": "Sciences de gestion",
+    "topic": "Coûts et marges",
+    "title": "Naturalia — Coût de distribution par panier",
+    "context": "Naturalia propose un panier 'complet'. Coût d'achat par familles : Légumes/œufs = 11,50 + 2,40 ; Produits secs = (35/15) + (65/10×0,25) + (80/10×0,25) ; Produits laitiers = (2×0,8) + 3,80 + 3. Charges de production par panier : transport/stockage 0,80 ; matériel 1 ; main d'œuvre (20×5)/60. Charges de distribution : main d'œuvre (20×6)/60 ; charges générales 1.",
+    "question": "Calcule le coût de distribution par panier.",
+    "qtype": "number",
+    "answer": 3.0,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "Main d'œuvre (20×6)/60 = 2,00 ; charges générales 1,00. Total = 3,00 €.",
+    "error_tags": [
+      "couts",
+      "direct_indirect",
+      "unitaire_global"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : attention au unitaire/global : × quantité ou ÷ quantité selon le cas."
+  },
+  {
+    "id": "nat_q4",
+    "theme": "Sciences de gestion",
+    "topic": "Coûts et marges",
+    "title": "Naturalia — Coût de revient du panier",
+    "context": "Naturalia propose un panier 'complet'. Coût d'achat par familles : Légumes/œufs = 11,50 + 2,40 ; Produits secs = (35/15) + (65/10×0,25) + (80/10×0,25) ; Produits laitiers = (2×0,8) + 3,80 + 3. Charges de production par panier : transport/stockage 0,80 ; matériel 1 ; main d'œuvre (20×5)/60. Charges de distribution : main d'œuvre (20×6)/60 ; charges générales 1.",
+    "question": "Calcule le coût de revient du panier 'complet'.",
+    "qtype": "number",
+    "answer": 34.73,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "Coût de revient = coût d'achat 28,26 + coût de production 3,47 + coût de distribution 3,00 = 34,73 €.",
+    "error_tags": [
+      "couts",
+      "direct_indirect",
+      "unitaire_global"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : attention au unitaire/global : × quantité ou ÷ quantité selon le cas."
+  },
+  {
+    "id": "marge_q1",
+    "theme": "Sciences de gestion",
+    "topic": "Coûts et marges",
+    "title": "Naturalia — Marge brute beurre",
+    "context": "Naturalia : Prix TTC beurre 2,99 ; lait 0,99. Prix HT beurre 2,84 ; lait 0,94. Prix payé producteur beurre 2,04 ; lait 0,79. Charges fixes imputées beurre 0,68 ; lait 0,13.",
+    "question": "Calcule la marge brute sur le beurre bio (PV HT − prix payé au producteur).",
+    "qtype": "number",
+    "answer": 0.8,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "Marge brute beurre = 2,84 − 2,04 = 0,80 €.",
+    "error_tags": [
+      "marge",
+      "unitaire_global"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : marge = prix de vente − coût (d’achat ou de revient selon la question)."
+  },
+  {
+    "id": "marge_q2",
+    "theme": "Sciences de gestion",
+    "topic": "Coûts et marges",
+    "title": "Naturalia — Marge nette beurre",
+    "context": "Naturalia : Prix TTC beurre 2,99 ; lait 0,99. Prix HT beurre 2,84 ; lait 0,94. Prix payé producteur beurre 2,04 ; lait 0,79. Charges fixes imputées beurre 0,68 ; lait 0,13.",
+    "question": "Calcule la marge nette sur le beurre bio (marge brute − charges fixes).",
+    "qtype": "number",
+    "answer": 0.12,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "Marge nette beurre = 0,80 − 0,68 = 0,12 €.",
+    "error_tags": [
+      "marge",
+      "unitaire_global"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : marge = prix de vente − coût (d’achat ou de revient selon la question)."
+  },
+  {
+    "id": "marge_q3",
+    "theme": "Sciences de gestion",
+    "topic": "Coûts et marges",
+    "title": "Naturalia — Marge brute lait",
+    "context": "Naturalia : Prix TTC beurre 2,99 ; lait 0,99. Prix HT beurre 2,84 ; lait 0,94. Prix payé producteur beurre 2,04 ; lait 0,79. Charges fixes imputées beurre 0,68 ; lait 0,13.",
+    "question": "Calcule la marge brute sur le lait bio (PV HT − prix payé au producteur).",
+    "qtype": "number",
+    "answer": 0.15,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "Marge brute lait = 0,94 − 0,79 = 0,15 €.",
+    "error_tags": [
+      "marge",
+      "unitaire_global"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : marge = prix de vente − coût (d’achat ou de revient selon la question)."
+  },
+  {
+    "id": "marge_q4",
+    "theme": "Sciences de gestion",
+    "topic": "Coûts et marges",
+    "title": "Naturalia — Marge nette lait",
+    "context": "Naturalia : Prix TTC beurre 2,99 ; lait 0,99. Prix HT beurre 2,84 ; lait 0,94. Prix payé producteur beurre 2,04 ; lait 0,79. Charges fixes imputées beurre 0,68 ; lait 0,13.",
+    "question": "Calcule la marge nette sur le lait bio (marge brute − charges fixes).",
+    "qtype": "number",
+    "answer": 0.02,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "Marge nette lait = 0,15 − 0,13 = 0,02 €.",
+    "error_tags": [
+      "marge",
+      "unitaire_global"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : marge = prix de vente − coût (d’achat ou de revient selon la question)."
+  },
+  {
+    "id": "tre_q1",
+    "theme": "Sciences de gestion",
+    "topic": "Rentabilité",
+    "title": "Délices d'Ici — Taux de rentabilité économique",
+    "context": "Les Délices d'Ici : résultat 319 600 € ; chiffre d'affaires 600 000 €. Formule : (Résultat/CA)×100.",
+    "question": "Calcule le taux de rentabilité économique (en %).",
+    "qtype": "number",
+    "answer": 53.2667,
+    "tolerance": 0.2,
+    "unit": "%",
+    "explanation": "TRE = (319 600 / 600 000) × 100 ≈ 53,3 %.",
+    "error_tags": [
+      "pourcentage",
+      "rentabilite"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : un taux de rentabilité se calcule (résultat / CA) × 100 : attention à la base."
+  },
+  {
+    "id": "div_q1",
+    "theme": "Sciences de gestion",
+    "topic": "Valeur actionnariale",
+    "title": "Dividendes — Montant total perçu",
+    "context": "Tu as 150 actions. Dividende par action : 2,50 €.",
+    "question": "Calcule le dividende total perçu.",
+    "qtype": "number",
+    "answer": 375,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "Dividende total = 2,50 × 150 = 375 €.",
+    "error_tags": [
+      "multiplication",
+      "valeur_actionnariale"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : dividende total = dividende par action × nombre d’actions."
+  },
+  {
+    "id": "cap_q1",
+    "theme": "Sciences de gestion",
+    "topic": "Valeur boursière",
+    "title": "Capitalisation boursière",
+    "context": "Les Délices d'Ici : 3 000 000 actions ; cours 45 €.",
+    "question": "Calcule la capitalisation boursière.",
+    "qtype": "number",
+    "answer": 135000000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Capitalisation = 3 000 000 × 45 = 135 000 000 €.",
+    "error_tags": [
+      "multiplication",
+      "valeur_boursiere"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : capitalisation boursière = nombre d’actions × cours."
+  },
+  {
+    "id": "V2-01",
+    "theme": "V2",
+    "topic": "Compte de résultat",
+    "title": "CR — Sélectionner les 'Autres achats et charges externes'",
+    "context": "Contexte : Les Délices d’Ici (tartinades bio) — d’après ton exercice 1.",
+    "question": "Coche **tous** les éléments à classer dans **Autres achats et charges externes** (et uniquement eux).",
+    "qtype": "multi_select",
+    "answer": [
+      "Achat des pots (0,20 € l’unité)",
+      "Loyer",
+      "Électricité",
+      "Eau",
+      "Honoraires comptables",
+      "Divers"
+    ],
+    "tolerance": 0.01,
+    "unit": "",
+    "explanation": "Dans ton CR, **Autres achats et charges externes** regroupe notamment : pots, loyer, eau/électricité, honoraires, divers. Les **impôts** et les **salaires** sont dans leurs postes propres ; le **rappel d’impôts** est en **exceptionnel**.",
+    "options": [
+      "Achat de matières premières",
+      "Achat des pots (0,20 € l’unité)",
+      "Loyer",
+      "Électricité",
+      "Eau",
+      "Honoraires comptables",
+      "Divers",
+      "Impôts et taxes",
+      "Charges de personnel",
+      "Rappel d’impôts exceptionnel"
+    ],
+    "error_tags": [
+      "CR",
+      "charges_vs_produits",
+      "classement_postes"
+    ],
+    "difficulty": 2,
+    "error_tip": "Attention : vérifie si tu es dans les charges (emplois) ou dans les produits (ventes/ressources)."
+  },
+  {
+    "id": "V2-02",
+    "theme": "V2",
+    "topic": "Compte de résultat",
+    "title": "CR — Où classer les dividendes ?",
+    "context": "Contexte : Les Délices d’Ici (tartinades bio) — d’après ton exercice 1.",
+    "question": "Les 1 200 € de dividendes reçus (produits des titres) se classent dans…",
+    "qtype": "single_select",
+    "answer": "Produits financiers",
+    "tolerance": 0.01,
+    "unit": "",
+    "explanation": "Des **dividendes** sont des **produits financiers** (produits des titres).",
+    "options": [
+      "Produits d’exploitation",
+      "Produits financiers",
+      "Produits exceptionnels"
+    ],
+    "error_tags": [
+      "CR",
+      "charges_vs_produits",
+      "classement_postes",
+      "multiplication",
+      "valeur_actionnariale"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : vérifie si tu es dans les charges (emplois) ou dans les produits (ventes/ressources)."
+  },
+  {
+    "id": "V2-03",
+    "theme": "V2",
+    "topic": "Compte de résultat",
+    "title": "CR — Où classer la subvention ?",
+    "context": "Contexte : Les Délices d’Ici (tartinades bio) — d’après ton exercice 1.",
+    "question": "La subvention départementale de 900 € se classerait ici (selon ton tableau) :",
+    "qtype": "single_select",
+    "answer": "Produits exceptionnels",
+    "tolerance": 0.01,
+    "unit": "",
+    "explanation": "Dans ton exercice, la subvention est rangée en **produits exceptionnels**.",
+    "options": [
+      "Produits d’exploitation",
+      "Produits financiers",
+      "Produits exceptionnels"
+    ],
+    "error_tags": [
+      "CR",
+      "charges_vs_produits",
+      "classement_postes"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : vérifie si tu es dans les charges (emplois) ou dans les produits (ventes/ressources)."
+  },
+  {
+    "id": "V2-04",
+    "theme": "V2",
+    "topic": "Compte de résultat",
+    "title": "VA — Qu’est-ce qui entre dans les consommations intermédiaires (CI) ?",
+    "context": "Contexte : Les Délices d’Ici (tartinades bio) — d’après ton exercice 1.",
+    "question": "Coche **tous** les éléments qui entrent dans les **consommations intermédiaires (CI)** pour calculer la VA.",
+    "qtype": "multi_select",
+    "answer": [
+      "Achats de matières premières",
+      "Autres achats et charges externes"
+    ],
+    "tolerance": 0.01,
+    "unit": "",
+    "explanation": "CI = achats consommés + services extérieurs nécessaires à la production (**matières premières + autres achats/charges externes**). On **n’y met pas** impôts, salaires, amortissements, ni exceptionnel.",
+    "options": [
+      "Achats de matières premières",
+      "Autres achats et charges externes",
+      "Impôts et taxes",
+      "Charges de personnel",
+      "Dotations aux amortissements",
+      "Rappel d’impôts exceptionnel"
+    ],
+    "error_tags": [
+      "CR",
+      "charges_vs_produits",
+      "classement_postes"
+    ],
+    "difficulty": 2,
+    "error_tip": "Attention : vérifie si tu es dans les charges (emplois) ou dans les produits (ventes/ressources)."
+  },
+  {
+    "id": "V2-05",
+    "theme": "V2",
+    "topic": "Bilan",
+    "title": "Bilan — Actif ou Passif ?",
+    "context": "Contexte : Les Délices d’Ici — d’après ton exercice 2 (bilan).",
+    "question": "Le **stock de matières premières (75 000 €)** se place dans :",
+    "qtype": "single_select",
+    "answer": "Actif",
+    "tolerance": 0.01,
+    "unit": "",
+    "explanation": "Un **stock** est une ressource détenue par l’entreprise → **actif circulant**.",
+    "options": [
+      "Actif",
+      "Passif"
+    ],
+    "error_tags": [
+      "Bilan",
+      "actif_passif",
+      "brut_net_amort"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : au bilan, l’actif = ce que l’entreprise possède ; le passif = ses ressources et ce qu’elle doit."
+  },
+  {
+    "id": "V2-06",
+    "theme": "V2",
+    "topic": "Bilan",
+    "title": "Bilan — Classer une dette",
+    "context": "Contexte : Les Délices d’Ici — d’après ton exercice 2 (bilan).",
+    "question": "Les **32 000 € dus aux fournisseurs** se placent dans :",
+    "qtype": "single_select",
+    "answer": "Passif (dettes)",
+    "tolerance": 0.01,
+    "unit": "",
+    "explanation": "Une somme **due** aux fournisseurs = **dette d’exploitation** → passif.",
+    "options": [
+      "Actif (créances)",
+      "Passif (dettes)"
+    ],
+    "error_tags": [
+      "Bilan",
+      "actif_passif",
+      "brut_net_amort"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : au bilan, l’actif = ce que l’entreprise possède ; le passif = ses ressources et ce qu’elle doit."
+  },
+  {
+    "id": "V2-07",
+    "theme": "V2",
+    "topic": "Bilan",
+    "title": "Bilan — Quelles lignes sont des immobilisations ?",
+    "context": "Contexte : Les Délices d’Ici — d’après ton exercice 2 (bilan).",
+    "question": "Coche les éléments qui sont des **immobilisations** (incorporelles / corporelles / financières).",
+    "qtype": "multi_select",
+    "answer": [
+      "Frais de constitution",
+      "Machine d’étiquetage",
+      "Machine de cuisson",
+      "Actions détenues dans l’exploitation agricole partenaire"
+    ],
+    "tolerance": 0.01,
+    "unit": "",
+    "explanation": "Immobilisations = éléments durables : incorporelles (frais de constitution), corporelles (machines), financières (actions).",
+    "options": [
+      "Frais de constitution",
+      "Stock de matières premières",
+      "Machine d’étiquetage",
+      "Machine de cuisson",
+      "Actions détenues dans l’exploitation agricole partenaire",
+      "Dettes fournisseurs",
+      "Emprunt bancaire restant dû"
+    ],
+    "error_tags": [
+      "Bilan",
+      "actif_passif",
+      "brut_net_amort"
+    ],
+    "difficulty": 2,
+    "error_tip": "Attention : au bilan, l’actif = ce que l’entreprise possède ; le passif = ses ressources et ce qu’elle doit."
+  },
+  {
+    "id": "V2-08",
+    "theme": "V2",
+    "topic": "Coûts et marges",
+    "title": "Coût d’achat — Quelles données utiliser ?",
+    "context": "Contexte : Naturalia — d’après ton exercice 6 (panier complet).",
+    "question": "Pour calculer le **coût d’achat du panier complet**, quelles informations utilises-tu ?",
+    "qtype": "multi_select",
+    "answer": [
+      "Coûts des ingrédients (légumes/œufs, produits secs, produits laitiers)"
+    ],
+    "tolerance": 0.01,
+    "unit": "",
+    "explanation": "Le **coût d’achat** = uniquement ce qui sert à **acheter** le panier (ici les ingrédients). Les autres postes appartiennent au coût de production / distribution.",
+    "options": [
+      "Coûts des ingrédients (légumes/œufs, produits secs, produits laitiers)",
+      "Transport et stockage",
+      "Petit matériel de reconditionnement",
+      "Main d’œuvre (production)",
+      "Main d’œuvre (distribution)",
+      "Charges générales"
+    ],
+    "error_tags": [
+      "couts",
+      "direct_indirect",
+      "unitaire_global"
+    ],
+    "difficulty": 2,
+    "error_tip": "Attention : attention au unitaire/global : × quantité ou ÷ quantité selon le cas."
+  },
+  {
+    "id": "V2-09",
+    "theme": "V2",
+    "topic": "Coûts et marges",
+    "title": "Coût de revient — Ordre des étapes",
+    "context": "Contexte : Naturalia — d’après ton exercice 6 (panier complet).",
+    "question": "Le **coût de revient** du panier complet correspond à :",
+    "qtype": "single_select",
+    "answer": "Coût d’achat + coût de production + coût de distribution",
+    "tolerance": 0.01,
+    "unit": "",
+    "explanation": "Dans ton exercice : **coût de revient = coût d’achat + coût de production + coût de distribution**.",
+    "options": [
+      "Coût d’achat + coût de production + coût de distribution",
+      "Coût d’achat + marge nette",
+      "Coût de production + coût de distribution (sans coût d’achat)"
+    ],
+    "error_tags": [
+      "couts",
+      "direct_indirect",
+      "unitaire_global"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : attention au unitaire/global : × quantité ou ÷ quantité selon le cas."
+  },
+  {
+    "id": "V2-10",
+    "theme": "V2",
+    "topic": "Coûts et marges",
+    "title": "Marge — Définition rapide",
+    "context": "Contexte : Naturalia — d’après ton exercice 7 (beurre/lait).",
+    "question": "La **marge brute** de Naturalia sur un produit correspond à :",
+    "qtype": "single_select",
+    "answer": "Prix de vente HT − prix payé au producteur",
+    "tolerance": 0.01,
+    "unit": "",
+    "explanation": "Dans ton tableau : marge brute = **PV HT − prix payé au producteur**.",
+    "options": [
+      "Prix de vente HT − prix payé au producteur",
+      "Prix de vente TTC − charges fixes",
+      "Prix payé au producteur − prix de vente HT"
+    ],
+    "error_tags": [
+      "marge",
+      "unitaire_global"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : marge = prix de vente − coût (d’achat ou de revient selon la question)."
+  },
+  {
+    "id": "V2-11",
+    "theme": "V2",
+    "topic": "Coûts et marges",
+    "title": "Marge nette — Que retire-t-on ?",
+    "context": "Contexte : Naturalia — d’après ton exercice 7 (beurre/lait).",
+    "question": "Pour passer de la **marge brute** à la **marge nette**, on retire :",
+    "qtype": "single_select",
+    "answer": "Les charges fixes de Naturalia",
+    "tolerance": 0.01,
+    "unit": "",
+    "explanation": "Marge nette = marge brute − **charges fixes** (dans ton tableau).",
+    "options": [
+      "Les charges fixes de Naturalia",
+      "Les achats de matières premières",
+      "Les dividendes versés"
+    ],
+    "error_tags": [
+      "marge",
+      "unitaire_global"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : marge = prix de vente − coût (d’achat ou de revient selon la question)."
+  },
+  {
+    "id": "V2-12",
+    "theme": "V2",
+    "topic": "Rentabilité",
+    "title": "Rentabilité — Formule",
+    "context": "Contexte : Les Délices d’Ici — d’après ton exercice 3 (rentabilité économique).",
+    "question": "La rentabilité économique (dans ton exercice) se calcule par :",
+    "qtype": "single_select",
+    "answer": "(Résultat / Chiffre d’affaires) × 100",
+    "tolerance": 0.01,
+    "unit": "",
+    "explanation": "Tu donnes : **TRE = (Résultat / CA) × 100**.",
+    "options": [
+      "(Résultat / Chiffre d’affaires) × 100",
+      "(Chiffre d’affaires / Résultat) × 100",
+      "(VA / Résultat) × 100"
+    ],
+    "error_tags": [
+      "pourcentage",
+      "rentabilite"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : un taux de rentabilité se calcule (résultat / CA) × 100 : attention à la base."
+  },
+  {
+    "id": "ex1_tri_ci",
+    "theme": "Sciences de gestion",
+    "topic": "Compte de résultat",
+    "title": "Délices d'Ici — Sélectionner les consommations intermédiaires",
+    "context": "Contexte Délices d'Ici : ventes 100 000 pots à 6€ ; matières premières 2€/pot ; pots 0,20€ ; loyer 1 000€/mois ; électricité 3 000€/an ; eau 1 000€/an ; honoraires 2 000€ ; divers 4 000€ ; impôts et taxes 3 000€ ; personnel 35 000€ ; dividendes 1 200€ ; subvention 900€ ; rappel impôts 2 500€.",
+    "question": "Parmi les éléments ci-dessous, sélectionne ceux qui constituent les consommations intermédiaires (CI) pour calculer la VA.",
+    "qtype": "multi_select",
+    "options": [
+      "Achats de matières premières",
+      "Pots de conditionnement (0,20€)",
+      "Loyer",
+      "Électricité",
+      "Eau",
+      "Honoraires comptables",
+      "Divers",
+      "Impôts et taxes",
+      "Charges de personnel",
+      "Dividendes reçus",
+      "Subvention départementale",
+      "Rappel d'impôts"
+    ],
+    "answer": [
+      "Achats de matières premières",
+      "Pots de conditionnement (0,20€)",
+      "Loyer",
+      "Électricité",
+      "Eau",
+      "Honoraires comptables",
+      "Divers"
+    ],
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Les CI regroupent les achats consommés et services extérieurs nécessaires à la production (matières premières + autres achats et charges externes). On n'y met ni impôts, ni salaires, ni produits financiers/exceptionnels.",
+    "error_tags": [
+      "CR",
+      "VA",
+      "selection_donnees",
+      "ci_vs_autres"
+    ],
+    "difficulty": 2,
+    "error_tip": "Attention : les CI = achats consommés + charges externes ; on n’y met ni salaires ni impôts."
+  },
+  {
+    "id": "ex1_tri_charges_expl",
+    "theme": "Sciences de gestion",
+    "topic": "Compte de résultat",
+    "title": "Délices d'Ici — Charges d'exploitation : quoi inclure ?",
+    "context": "Contexte Délices d'Ici : ventes 100 000 pots à 6€ ; matières premières 2€/pot ; pots 0,20€ ; loyer 1 000€/mois ; électricité 3 000€/an ; eau 1 000€/an ; honoraires 2 000€ ; divers 4 000€ ; impôts et taxes 3 000€ ; personnel 35 000€ ; dividendes 1 200€ ; subvention 900€ ; rappel impôts 2 500€.",
+    "question": "Sélectionne les postes qui sont des charges d'exploitation.",
+    "qtype": "multi_select",
+    "options": [
+      "Achats de matières premières",
+      "Autres achats et charges externes",
+      "Impôts et taxes",
+      "Charges de personnel",
+      "Dotations aux amortissements",
+      "Dividendes reçus",
+      "Subvention départementale",
+      "Rappel d'impôts"
+    ],
+    "answer": [
+      "Achats de matières premières",
+      "Autres achats et charges externes",
+      "Impôts et taxes",
+      "Charges de personnel",
+      "Dotations aux amortissements"
+    ],
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Les charges d'exploitation regroupent les postes liés à l'activité courante (achats, charges externes, impôts/taxes, personnel, amortissements). Les dividendes et subventions ne sont pas des charges d'exploitation ; le rappel d'impôts est une charge exceptionnelle.",
+    "error_tags": [
+      "CR",
+      "charges_vs_produits",
+      "selection_donnees"
+    ],
+    "difficulty": 2,
+    "error_tip": "Attention : vérifie si tu es dans les charges (emplois) ou dans les produits (ventes/ressources)."
+  },
+  {
+    "id": "ex1_class_dividendes",
+    "theme": "Sciences de gestion",
+    "topic": "Compte de résultat",
+    "title": "Délices d'Ici — Où classer les dividendes ?",
+    "context": "Contexte Délices d'Ici : ventes 100 000 pots à 6€ ; matières premières 2€/pot ; pots 0,20€ ; loyer 1 000€/mois ; électricité 3 000€/an ; eau 1 000€/an ; honoraires 2 000€ ; divers 4 000€ ; impôts et taxes 3 000€ ; personnel 35 000€ ; dividendes 1 200€ ; subvention 900€ ; rappel impôts 2 500€.",
+    "question": "Les 1 200 € de dividendes reçus sont à classer dans…",
+    "qtype": "single_select",
+    "options": [
+      "Produits d'exploitation",
+      "Produits financiers",
+      "Produits exceptionnels",
+      "Charges financières"
+    ],
+    "answer": "Produits financiers",
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Les dividendes reçus sont des produits financiers (produits des titres).",
+    "error_tags": [
+      "CR",
+      "classement_postes",
+      "produits_financiers"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : classe d’abord chaque montant dans le bon poste (exploitation/financier/exceptionnel)."
+  },
+  {
+    "id": "ex1_class_subvention",
+    "theme": "Sciences de gestion",
+    "topic": "Compte de résultat",
+    "title": "Délices d'Ici — Où classer la subvention ?",
+    "context": "Contexte Délices d'Ici : ventes 100 000 pots à 6€ ; matières premières 2€/pot ; pots 0,20€ ; loyer 1 000€/mois ; électricité 3 000€/an ; eau 1 000€/an ; honoraires 2 000€ ; divers 4 000€ ; impôts et taxes 3 000€ ; personnel 35 000€ ; dividendes 1 200€ ; subvention 900€ ; rappel impôts 2 500€.",
+    "question": "La subvention du Conseil départemental (900 €) est à classer dans…",
+    "qtype": "single_select",
+    "options": [
+      "Produits d'exploitation",
+      "Produits financiers",
+      "Produits exceptionnels"
+    ],
+    "answer": "Produits exceptionnels",
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Dans ton exercice, la subvention est traitée comme un produit exceptionnel (événement non courant).",
+    "error_tags": [
+      "CR",
+      "classement_postes",
+      "produits_exceptionnels"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : classe d’abord chaque montant dans le bon poste (exploitation/financier/exceptionnel)."
+  },
+  {
+    "id": "ex2_tri_actif",
+    "theme": "Sciences de gestion",
+    "topic": "Bilan",
+    "title": "Bilan — Sélectionner l'actif",
+    "context": "Bilan Délices d'Ici au 31/12 N1 : stock MP 75 000€ ; fournisseurs 32 000€ ; cotisations sociales 25 500€ ; emprunt restant dû 73 000€ ; capital social 50 000€ ; bénéfice conservé 319 600€ ; immos : frais constitution 2 000€ amortis 4 ans, machine étiquetage 5 000€ amortie 5 ans, machine cuisson 15 000€ amortie 10 ans ; actions partenaire 10 000€.",
+    "question": "Sélectionne les éléments qui appartiennent à l'ACTIF du bilan.",
+    "qtype": "multi_select",
+    "options": [
+      "Stock de matières premières",
+      "Dettes fournisseurs",
+      "Cotisations sociales à payer",
+      "Emprunt bancaire restant dû",
+      "Machines (immobilisations)",
+      "Frais de constitution (immobilisations)",
+      "Actions détenues (immobilisations financières)",
+      "Capital social",
+      "Bénéfice conservé"
+    ],
+    "answer": [
+      "Stock de matières premières",
+      "Machines (immobilisations)",
+      "Frais de constitution (immobilisations)",
+      "Actions détenues (immobilisations financières)"
+    ],
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "L'actif regroupe ce que l'entreprise possède (immobilisations, stocks, créances, trésorerie). Les dettes et capitaux propres sont au passif.",
+    "error_tags": [
+      "Bilan",
+      "actif_passif",
+      "selection_donnees"
+    ],
+    "difficulty": 2,
+    "error_tip": "Attention : au bilan, l’actif = ce que l’entreprise possède ; le passif = ses ressources et ce qu’elle doit."
+  },
+  {
+    "id": "ex2_tri_passif",
+    "theme": "Sciences de gestion",
+    "topic": "Bilan",
+    "title": "Bilan — Sélectionner le passif",
+    "context": "Bilan Délices d'Ici au 31/12 N1 : stock MP 75 000€ ; fournisseurs 32 000€ ; cotisations sociales 25 500€ ; emprunt restant dû 73 000€ ; capital social 50 000€ ; bénéfice conservé 319 600€ ; immos : frais constitution 2 000€ amortis 4 ans, machine étiquetage 5 000€ amortie 5 ans, machine cuisson 15 000€ amortie 10 ans ; actions partenaire 10 000€.",
+    "question": "Sélectionne les éléments qui appartiennent au PASSIF du bilan.",
+    "qtype": "multi_select",
+    "options": [
+      "Stock de matières premières",
+      "Dettes fournisseurs",
+      "Cotisations sociales à payer",
+      "Emprunt bancaire restant dû",
+      "Capital social",
+      "Bénéfice conservé",
+      "Machines (immobilisations)"
+    ],
+    "answer": [
+      "Dettes fournisseurs",
+      "Cotisations sociales à payer",
+      "Emprunt bancaire restant dû",
+      "Capital social",
+      "Bénéfice conservé"
+    ],
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Le passif regroupe ce que l'entreprise doit (dettes) et ses ressources propres (capitaux propres : capital + résultat).",
+    "error_tags": [
+      "Bilan",
+      "actif_passif",
+      "selection_donnees"
+    ],
+    "difficulty": 2,
+    "error_tip": "Attention : au bilan, l’actif = ce que l’entreprise possède ; le passif = ses ressources et ce qu’elle doit."
+  },
+  {
+    "id": "ex2_class_actions",
+    "theme": "Sciences de gestion",
+    "topic": "Bilan",
+    "title": "Bilan — Les actions partenaires sont…",
+    "context": "Bilan Délices d'Ici au 31/12 N1 : stock MP 75 000€ ; fournisseurs 32 000€ ; cotisations sociales 25 500€ ; emprunt restant dû 73 000€ ; capital social 50 000€ ; bénéfice conservé 319 600€ ; immos : frais constitution 2 000€ amortis 4 ans, machine étiquetage 5 000€ amortie 5 ans, machine cuisson 15 000€ amortie 10 ans ; actions partenaire 10 000€.",
+    "question": "Les actions détenues dans l'exploitation agricole partenaire (10 000 €) sont…",
+    "qtype": "single_select",
+    "options": [
+      "Immobilisations incorporelles",
+      "Immobilisations corporelles",
+      "Immobilisations financières",
+      "Stocks"
+    ],
+    "answer": "Immobilisations financières",
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Des titres détenus durablement → immobilisations financières (non amortissables).",
+    "error_tags": [
+      "Bilan",
+      "classement_postes",
+      "immos_fin"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : classe d’abord chaque montant dans le bon poste (exploitation/financier/exceptionnel)."
+  },
+  {
+    "id": "ex6_tri_cout_achat",
+    "theme": "Sciences de gestion",
+    "topic": "Coûts",
+    "title": "Naturalia — Qu'entre dans le coût d'achat ?",
+    "context": "Contexte Naturalia : on veut calculer le coût d'achat puis le coût de revient du panier « complet ».",
+    "question": "Sélectionne ce qui entre dans le coût d'achat du panier.",
+    "qtype": "multi_select",
+    "options": [
+      "Ingrédients (légumes/œufs, produits secs, produits laitiers)",
+      "Transport & stockage",
+      "Petit matériel de reconditionnement",
+      "Main d'œuvre de préparation",
+      "Main d'œuvre de distribution",
+      "Charges générales"
+    ],
+    "answer": [
+      "Ingrédients (légumes/œufs, produits secs, produits laitiers)"
+    ],
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Le coût d'achat = uniquement le coût des marchandises/ingrédients achetés (charges directes liées aux produits). Les autres sont des charges de production/distribution.",
+    "error_tags": [
+      "couts",
+      "cout_achat_vs_revient",
+      "selection_donnees"
+    ],
+    "difficulty": 2,
+    "error_tip": "Attention : coût d’achat ≠ coût de revient : le revient ajoute production + distribution."
+  },
+  {
+    "id": "ex6_tri_cout_revient",
+    "theme": "Sciences de gestion",
+    "topic": "Coûts",
+    "title": "Naturalia — Qu'ajouter pour passer au coût de revient ?",
+    "context": "Contexte Naturalia : on veut calculer le coût d'achat puis le coût de revient du panier « complet ».",
+    "question": "Pour passer du coût d'achat au coût de revient, sélectionne toutes les charges à ajouter.",
+    "qtype": "multi_select",
+    "options": [
+      "Transport & stockage",
+      "Petit matériel de reconditionnement",
+      "Main d'œuvre de préparation",
+      "Main d'œuvre de distribution",
+      "Charges générales"
+    ],
+    "answer": [
+      "Transport & stockage",
+      "Petit matériel de reconditionnement",
+      "Main d'œuvre de préparation",
+      "Main d'œuvre de distribution",
+      "Charges générales"
+    ],
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Coût de revient = coût d'achat + charges de production + charges de distribution (et charges générales imputées).",
+    "error_tags": [
+      "couts",
+      "cout_achat_vs_revient",
+      "selection_donnees"
+    ],
+    "difficulty": 2,
+    "error_tip": "Attention : coût d’achat ≠ coût de revient : le revient ajoute production + distribution."
+  },
+  {
+    "id": "tpl_ca_pots",
+    "theme": "Sciences de gestion",
+    "topic": "Compte de résultat",
+    "title": "Variante — Chiffre d'affaires ({qty} unités à {price}€)",
+    "context": "Une entreprise vend {qty} unités au prix unitaire de {price} €.",
+    "question": "Calcule le chiffre d'affaires.",
+    "qtype": "template_number",
+    "template": {
+      "n_variants": 3,
+      "params_spec": {
+        "qty": {
+          "type": "int",
+          "min": 60000,
+          "max": 180000,
+          "step": 5000
+        },
+        "price": {
+          "type": "int",
+          "min": 4,
+          "max": 9,
+          "step": 1
+        }
+      },
+      "formula": "qty*price",
+      "explanation": "CA = {qty} × {price} = {ans} €."
+    },
+    "answer": null,
+    "tolerance": 0,
+    "unit": "€",
+    "error_tags": [
+      "CR",
+      "CA",
+      "multiplication",
+      "variantes"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : vérifie la cohérence : on multiplie pour passer au total, on divise pour l’unitaire."
+  },
+  {
+    "id": "tpl_marge",
+    "theme": "Sciences de gestion",
+    "topic": "Calculs",
+    "title": "Variante — Marge unitaire (PV {pv}€ ; coût {cr}€)",
+    "context": "Un produit est vendu {pv} € et son coût de revient unitaire est {cr} €.",
+    "question": "Calcule la marge unitaire.",
+    "qtype": "template_number",
+    "template": {
+      "n_variants": 3,
+      "params_spec": {
+        "pv": {
+          "type": "int",
+          "min": 35,
+          "max": 80,
+          "step": 5
+        },
+        "cr": {
+          "type": "int",
+          "min": 15,
+          "max": 45,
+          "step": 1,
+          "lt": "pv"
+        }
+      },
+      "formula": "pv-cr",
+      "explanation": "Marge = PV − Coût = {pv} − {cr} = {ans} €."
+    },
+    "answer": null,
+    "tolerance": 0,
+    "unit": "€",
+    "error_tags": [
+      "marge",
+      "unitaire",
+      "variantes"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : marge = prix de vente − coût (d’achat ou de revient selon la question)."
+  },
+  {
+    "id": "tpl_capitalisation",
+    "theme": "Sciences de gestion",
+    "topic": "Valeur actionnariale / boursière",
+    "title": "Variante — Capitalisation (actions {n_actions} ; cours {price}€)",
+    "context": "Une entreprise a {n_actions} actions en circulation. Le cours d'une action est {price} €.",
+    "question": "Calcule la capitalisation boursière.",
+    "qtype": "template_number",
+    "template": {
+      "n_variants": 3,
+      "params_spec": {
+        "n_actions": {
+          "type": "int",
+          "min": 500000,
+          "max": 8000000,
+          "step": 500000
+        },
+        "price": {
+          "type": "int",
+          "min": 10,
+          "max": 120,
+          "step": 5
+        }
+      },
+      "formula": "n_actions*price",
+      "explanation": "Capitalisation = Nb d’actions × cours = {n_actions} × {price} = {ans} €."
+    },
+    "answer": null,
+    "tolerance": 0,
+    "unit": "€",
+    "error_tags": [
+      "valeur_boursiere",
+      "multiplication",
+      "variantes"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : capitalisation boursière = nombre d’actions × cours."
+  },
+  {
+    "id": "tpl_dividendes",
+    "theme": "Sciences de gestion",
+    "topic": "Valeur actionnariale / boursière",
+    "title": "Variante — Dividendes (DPA {dpa}€ ; {n} actions)",
+    "context": "Tu détiens {n} actions. Le dividende par action est {dpa} €.",
+    "question": "Calcule le dividende total perçu.",
+    "qtype": "template_number",
+    "template": {
+      "n_variants": 3,
+      "params_spec": {
+        "dpa": {
+          "type": "float",
+          "min": 0.5,
+          "max": 4.0,
+          "step": 0.1
+        },
+        "n": {
+          "type": "int",
+          "min": 20,
+          "max": 400,
+          "step": 10
+        }
+      },
+      "formula": "dpa*n",
+      "explanation": "Dividende total = DPA × nb d’actions = {dpa} × {n} = {ans} €."
+    },
+    "answer": null,
+    "tolerance": 0,
+    "unit": "€",
+    "error_tags": [
+      "valeur_actionnariale",
+      "multiplication",
+      "variantes"
+    ],
+    "difficulty": 1,
+    "error_tip": "Attention : dividende total = dividende par action × nombre d’actions."
+  }
+]
