@@ -359,7 +359,7 @@ def render_section(section_key: str, section_title: str, exercises):
                     ex = next(e for e in pool if e["id"] == st.session_state[current_key])
 
     with colC:
-        if st.button("🔄 Réinitialiser", help="Efface les exercices réussis et les tentatives."):
+        if st.button("🔄 Réinitialiser", key=f"reset_"{section_key}":
             reset_progress()
             # Also reset per-section current ids
             for k in ["current_id_cr", "current_id_bilan", "current_id_calculs"]:
