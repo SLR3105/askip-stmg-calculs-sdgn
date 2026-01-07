@@ -432,8 +432,8 @@ def main():
 
     col1, col2, col3 = st.columns ([1, 1, 1])
     with col2:
-    if logo_path.exists():
-        st.image(str(logo_path), width=90)
+        if logo_path.exists():
+            st.image(str(logo_path), width=90)
 
     st.caption("© Sandrine Lefebvre-Reghay - Usage pédagogique — Askip’en STMG Calculs")
 
