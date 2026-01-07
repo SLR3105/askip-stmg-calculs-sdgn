@@ -388,7 +388,7 @@ def render_section(section_key: str, section_title: str, exercises):
     render_question(ex, section_key)
 
 def main():
-    st.set_page_config(page_title=APP_TITLE, page_icon="🧮", layout="centered")
+    st.set_page_config(page_title=APP_TITLE, layout="centered")
 
     # Branding (assets in project folder)
     banner_path = Path(__file__).parent / "Banniere_Askip.png"
@@ -400,7 +400,7 @@ def main():
         st.image(str(logo_path), width=140)
     init_state()
 
-    st.title("🧮 " + APP_TITLE)
+    st.title(APP_TITLE)
     st.caption("Entraînement interactif : compte de résultat, bilan, coûts, marges, rentabilité…")
 
     exercises = load_exercises()
@@ -431,7 +431,7 @@ def main():
         with sub4:
             render_section("valeur", "Valeur actionnariale / boursière", exercises)
 
-    st.caption("© Usage pédagogique — Askip’en STMG Calculs")
+    st.caption("© Sandrine Lefebvre-Reghay - Usage pédagogique — Askip’en STMG Calculs")
 
 
 if __name__ == "__main__":
