@@ -428,14 +428,15 @@ def main():
         with sub4:
             render_section("valeur", "Valeur actionnariale / boursière", exercises)
 
-    st.markdown ("---")
+    st.markdown ("<br>, unsafe_allow_html=True)
+    full = st.container() 
+    with full:
+        col1, col2, col3 = st.columns ([2, 1, 2])
+        with col2:
+            if logo_path.exists():
+                st.image(str(logo_path), width=90)
 
-    col1, col2, col3 = st.columns ([1, 1, 1])
-    with col2:
-        if logo_path.exists():
-            st.image(str(logo_path), width=90)
-
-    st.caption("© Sandrine Lefebvre-Reghay - Usage pédagogique — Askip’en STMG Calculs")
+    st.caption("© Sandrine Lefebvre-Reghay - Askip’en STMG Calculs")
 
 
 if __name__ == "__main__":
