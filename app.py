@@ -436,7 +436,7 @@ def main():
             if logo_path.exists():
                 st.image(str(logo_path), width=90)
 
-    st.caption("© Sandrine Lefebvre-Reghay - Askip’en STMG Calculs")
+            st.caption("© Sandrine Lefebvre-Reghay - Askip’en STMG Calculs")
 
 
 if __name__ == "__main__":
