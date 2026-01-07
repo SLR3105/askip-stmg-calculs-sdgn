@@ -438,7 +438,7 @@ def main():
 
     st.markdown (
             "<p style='text-align:center; font-size:12px; white-space:nowrap;'>"
-            "© Sandrine Lefebvre-Reghay - Askip’en STMG - Calculs"
+            "© Sandrine Lefebvre-Reghay - Askip’en STMG - 2026"
             "</p>",
             unsafe_allow_html=True
     )
