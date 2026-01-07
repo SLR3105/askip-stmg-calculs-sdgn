@@ -436,7 +436,12 @@ def main():
             if logo_path.exists():
                 st.image(str(logo_path), width=90)
 
-            st.caption("© Sandrine Lefebvre-Reghay - Askip’en STMG Calculs")
+    st.markdown (
+            "<p style='text-align:center; font-size:12px; white-space:nowrap;'>"
+            "© Sandrine Lefebvre-Reghay - Askip’en STMG - Calculs"
+            "</p>",
+            unsafe_allow_html=True
+    )
 
 
 if __name__ == "__main__":
