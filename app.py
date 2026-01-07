@@ -428,7 +428,7 @@ def main():
         with sub4:
             render_section("valeur", "Valeur actionnariale / boursière", exercises)
 
-    st.markdown ("<br>, unsafe_allow_html=True)
+    st.markdown ("<br>", unsafe_allow_html=True)
     full = st.container() 
     with full:
         col1, col2, col3 = st.columns ([2, 1, 2])
