@@ -362,7 +362,7 @@ def render_section(section_key: str, section_title: str, exercises):
         if st.button("🔄 Réinitialiser", key=f"reset_{section_key}"):
             reset_progress()
             # Also reset per-section current ids
-            for k in [f"current_id_"{section_key}"]:
+            for k in [f"current_id_{section_key}"]:
                 if k in st.session_state:
                     st.session_state[k] = None
             st.rerun()
